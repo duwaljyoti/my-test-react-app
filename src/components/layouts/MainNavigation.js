@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom";
 import classes from './MainNavigation.module.css'
 import {useContext} from "react";
-import FavouritesContext from "../../store/FavouritesContext";
+import {FavouritesContext} from "../../store/FavouritesProvider";
 
 function MainNavigation() {
     const favouriteContext = useContext(FavouritesContext)
